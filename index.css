@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    padding: 15px 15px;
+}
+.logo-rock{
+    width: 40px;
+}
+
+.logo-one{
+    width: 200px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.buttons-header{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttons-header:hover{
+    border-color: red;
+}
+
+@media  (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Altera a direção da flexão para uma coluna */
+        text-align: center; /* Centraliza o conteúdo verticalmente */
+    }
+
+
+}
